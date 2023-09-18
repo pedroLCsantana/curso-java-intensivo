@@ -7,19 +7,19 @@ class NumerosPrimos {
         
         Scanner read = new Scanner(System.in);
         int num = read.nextInt();
-        if(num <= 1000)
+
+        if(num <= 1000) // Limitador
         {
-            for(int i = num; i > 1; i--)
+            for(int i = num; i > 1; i--) // De um numero até 0 ; Verificação Um por um
             {
                 
-                // Impar?
-                
-                if(i%2 != 0 && i%3 != 0 && i%5 != 0 && i%7 != 0) // Multiplo?
+            
+                if(i%2 != 0 && i%3 != 0 && i%5 != 0 && i%7 != 0) // Multiplo? Se não for, é primo
                 {
                     System.out.println(i);
                         
                 }
-                else if(i==2 || i == 3 || i == 5 || i == 7)
+                else if(i==2 || i == 3 || i == 5 || i == 7)// Primos Iniciais
                 {
                     System.out.println(i);
                 }
