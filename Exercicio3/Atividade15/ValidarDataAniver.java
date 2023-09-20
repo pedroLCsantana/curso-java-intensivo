@@ -29,9 +29,5 @@ class ValidarDataAniver
         {
             System.out.println("Data Valida! Seu aniversario é dia "+diaAniver+" de "+nomesMeses[mesAniver-1]+"!!");
         }
-
-
-
-
     }
 }
