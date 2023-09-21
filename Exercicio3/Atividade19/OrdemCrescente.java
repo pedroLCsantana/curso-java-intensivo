@@ -5,7 +5,7 @@ class OrdemCrescente
 {
     public static void main(String[] args)
     {  
-        System.out.println("Algoritmo que ordena dois numeros em ordem crescente: "); 
+        System.out.println("Algoritmo que ordena dois numeros em ordem crescente: \n"); 
         Scanner read = new Scanner(System.in);
 
         System.out.println("Digite um número inteiro");
@@ -17,7 +17,7 @@ class OrdemCrescente
 
         Arrays.sort(listNums);
 
-        System.out.println("Ordem crescente: ");
+        System.out.println("\nOrdem crescente: ");
         for(int i: listNums)
         {
             System.out.println(i);
