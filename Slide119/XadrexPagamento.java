@@ -21,7 +21,7 @@ class XadrexPagamento
         createMatrix();
         printMatrix();
 
-        // Casa da linha 4 e coluna 8 acontece o Overflow com int
+        // Casa da linha 5 e coluna 1 acontece o Overflow com int
         // Casa da linha 8 e coluna 8 acontece o Overflow com long
     }
 
